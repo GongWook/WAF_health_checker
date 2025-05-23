@@ -1,0 +1,21 @@
+## Waf_Checker 사용방법 ## ( ver - WAPPLES SA v6.0 - Release No r4)
+
+1. waf_list.txt 파일을 생성한다.
+
+2. ID 와 PW를 입력한다
+  ex)ID : penta_admin
+  ex)PW : admin_penta
+
+⭐주의1 : 위 형식을 그대로 맞춰줘야 한다.
+⭐주의2 : 모든 waf의 id와 pw가 동일해야 한다.
+
+3. 체킹할 waf명과 waf url을 기입해 준다.
+  ex)전북도청 : https://127.0.0.1:8080
+
+⭐주의3 : 위 형식을 그대로 맞춰줘야 한다.
+
+4. waf_checker.exe를 waf_list.txt파일과 동일 경로에 놓은 뒤 실행해 준다.
+
+5. 1분동안 waf 상태를 점검하여 traffic, cpu, memory, disk 사용량을 success_log.txt파일로 작성해준다.
+
+6. 결괏값을 빠르게 도출하기 위해 저장 순서가 뒤죽박죽일 수도 있다는 점을 주의하자.
